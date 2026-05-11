@@ -86,10 +86,6 @@ function ProjectCard({ project, index }: { project: any; index: number }) {
               <Github className="w-4 h-4" />
               Code
             </button>
-            <button className="flex items-center gap-2 text-sm text-white/70 hover:text-[#06b6d4] transition-colors">
-              <ExternalLink className="w-4 h-4" />
-              Live Demo
-            </button>
           </div>
         </div>
       </motion.div>
